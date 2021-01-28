@@ -1,4 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{Course At a Glance}{2}{0}{1}
-\beamer@sectionintoc {2}{Class Objectives}{4}{0}{2}
-\beamer@sectionintoc {3}{Basic Content}{12}{0}{3}
