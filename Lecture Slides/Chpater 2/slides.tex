@@ -35,10 +35,12 @@
 \makeatother
 
 %define title page
-\title{Topic 2-1: Likelihood Construction and Estimation}
+\title{Topic 2-1: Likelihood Construction $\&$ Estimation}
 \subtitle{Univariate Models}
 \author{}
-\institute{Department of Experimental Statistics, Louisiana State University}
+\institute{EXST 7160 \\
+Department of Experimental Statistics\\
+ Louisiana State University}
 \date{July 25, 2021}
 \pgfdeclareimage[height=0.5cm]{lsu-logo}{./images/lsu-logo.png}
 \logo{\pgfuseimage{lsu-logo}\hspace*{0.3cm}}
@@ -75,25 +77,166 @@ Likelihoods from Censored Data
 \end{frame}
 
 %------Introduction------%
-\begin{section}{Introduction}                   %SECTION 'Introduction'
-    \subsection{Problem Statement}              %subsection 1
-    \begin{frame}{Problem Statement}
+\begin{section}{General Concept}                   %SECTION 'Introduction'
+    \subsection{Introduction}              %subsection 1
+    \begin{frame}{Statistical Models}
         \begin{itemize}
-            \item
-            \item
-            \item
+            \item A statistical model is a general functional relation between the unknown parameter(s) and
+the observed data.
+            \item After a statistical model for the observed data has been formulated, the likelihood function of the data is the natural starting point for the inference in many statistical problems.
+            \item The likelihood function typically leads to essentially automatic methods of inference, including point estimation, interval estimation, and hypothesis testing.
+            \item In this topic, we will focus on constructing the likelihood functions from various types of data, including discrete, continuous, mixture of discrete and continuous, and censored data.
         \end{itemize}
     \end{frame}
 
-    \subsection{Importance of the Research}     %subsection 2
-    \begin{frame}{Importance of the Research}
+    \begin{frame}{Statistical Models}
+        \begin{itemize}
+            \item The likelihood is the joint density of the observed data to be analyzed.
+            \item Let the random variables $Y_{1}, \cdots, Y_{n}$ have a joint density function  $f(\mathbf{Y} = (Y_{1}, \cdots, Y_{n})^{T}; \boldsymbol{\theta})$ with unknown  $b$ density parameters $\boldsymbol{\theta} = (\theta_{1}, \cdots, \theta_{b})$ . Then, given observed data $\mathbf{Y} = \mathbf{y},$ where $\mathbf{y} \equiv (y_{1}, \cdots, y_{n})^{T},$ the function of $\boldsymbol{\theta}$ 
+$$L(\boldsymbol{\theta}; \mathbf{y}) = f(\mathbf{Y} = \mathbf{y};\boldsymbol{\theta})$$
+is the likelihood function.
+        \end{itemize}
+    \end{frame}
+
+
+    \begin{frame}{Likeliihod for iid data}
+        \begin{itemize}
+            \item If the random variables $Y_{1}, \cdots, Y_{n}$ are indenpendent, then the likelihood function becomes 
+$$L(\boldsymbol{\theta}; \mathbf{y}) = \prod^{n}_{i=1}f_{i}(Y_{i} = y_{i};\boldsymbol{\theta}),$$
+where $f_{i}(Y_{i}; \boldsymbol{\theta})$ is the density of $Y_{i}.$
+             \item If the  random variables $Y_{1}, \cdots, Y_{n}$ are indenpendent  and indentically distributed (denoted by iid), then the likelihood function becomes 
+$$L(\boldsymbol{\theta}; \mathbf{y}) = \prod^{n}_{i=1}f(Y_{i} = y_{i};\boldsymbol{\theta}),$$
+where $f$ is the distribution that all $Y_{1}, \cdots, Y_{n}$ follow.
+        \end{itemize}
+    \end{frame}
+
+
+    \begin{frame}{Solving the Likelihood}
+        \begin{itemize}
+            \item 
+        \end{itemize}
+    \end{frame}
+ \end{section}
+
+\begin{section}{Constructing Likelihood Functions}  
+    %\subsection{}     %subsection 2
+    \begin{frame}{Discrete IID Random Variables}
         \begin{itemize}
             \item
             \item
-            \item
+            \item  
         \end{itemize}
     \end{frame}
-    \end{section}
+
+
+    \begin{frame}{Continuous IID Variables}
+        \begin{itemize}
+            \item
+            \item
+            \item   References: More examples for constructing the product likelihood likelihood associated with iid data can be found in Section 7.2.2 of Casella and Berger (2002). 
+        \end{itemize}
+    \end{frame}
+
+
+
+    \begin{frame}{Multinomial}
+        \begin{itemize}
+            \item
+            \item
+            \item  References: Examples for 
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Multivariate Normal}
+        \begin{itemize}
+            \item
+            \item
+            \item 
+        \end{itemize}
+    \end{frame}
+
+
+
+    \begin{frame}{Mixture of discrete and continuous}
+        \begin{itemize}
+            \item
+            \item
+            \item 
+        \end{itemize}
+    \end{frame}
+
+
+
+
+    \begin{frame}{Multinomial}
+        \begin{itemize}
+            \item
+            \item
+            \item  References: Examples for 
+        \end{itemize}
+    \end{frame}
+\end{section}
+
+
+\begin{section}{More on likelihood functions}  
+
+    \begin{frame}{Proportional Likelihood}
+        \begin{itemize}
+            \item
+            \item
+            \item 
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Empirical Likelihood}
+        \begin{itemize}
+            \item
+            \item
+            \item  
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Likelihood With Censored data}
+        \begin{itemize}
+            \item
+            \item
+            \item  
+        \end{itemize}
+    \end{frame}
+
+\end{section}
+
+
+\begin{section}{Appendix: The connection between discrete and continuous likelihoods}  
+
+    \begin{frame}{A general working defintion of the likelihood}
+        \begin{itemize}
+            \item
+            \item
+            \item 
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Empirical Likelihood}
+        \begin{itemize}
+            \item
+            \item
+            \item  
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Likelihood With Censored data}
+        \begin{itemize}
+            \item
+            \item
+            \item  
+        \end{itemize}
+    \end{frame}
+
+\end{section}
+
+
+\end{document}
 
 %------Literature Review------%
 \begin{section}{Literature Review}              %SECTION 'Literature Review'
@@ -220,5 +363,3 @@ Likelihoods from Censored Data
     \huge{Thanks!}
     \end{center}
 \end{frame}
-
-\end{document}

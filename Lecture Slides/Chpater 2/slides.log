@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  26 JUL 2021 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  26 JUL 2021 14:13
 entering extended mode
 **./slides.tex
 (slides.tex
@@ -1039,10 +1039,18 @@ orchid.sty)
 rectangles.sty)) (beamercolorthemetigers.sty
 Package: beamercolorthemetigers 2021/05/15 v3.1.9a (3.1.9a)
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 58.
+
 \@quotelevel=\count454
 \@quotereset=\count455
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-56.
+58.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1054,24 +1062,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1132,7 +1140,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 58.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1144,59 +1152,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count463
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 (slides.out) (slides.out)
 \@outlinefile=\write6
 \openout6 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 56.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 56.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 56.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 58.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 56.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 56.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 56.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 56.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 56.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 56.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 58.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 56.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 56.
+(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 56.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 58.
 
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1257,226 +1265,457 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'slides.bbl' not found.
 No file slides.bbl.
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
-(slides.nav) [1{C:/Users/gtlhl/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
- <./images/lsu-logo.png>] [2
-
-] (slides.toc) [3
-
-] (slides.toc) [4
-
-] [5
-
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-] [10
-
-] (slides.toc) [11
-
-]
-
-LaTeX Warning: Citation 'dean2008mapreduce' on page 12 undefined on input line 
-107.
-
-
-LaTeX Warning: Citation 'silver2016mastering' on page 12 undefined on input lin
-e 107.
-
-[12
-
-]
-
-LaTeX Warning: Citation 'dean2008mapreduce' on page 13 undefined on input line 
-107.
-
-
-LaTeX Warning: Citation 'silver2016mastering' on page 13 undefined on input lin
-e 107.
-
-[13
-
-]
-
-LaTeX Warning: Citation 'dean2008mapreduce' on page 14 undefined on input line 
-107.
-
-
-LaTeX Warning: Citation 'silver2016mastering' on page 14 undefined on input lin
-e 107.
-
-[14
-
-] [15
-
-] [16
-
-] (slides.toc) [17
-
-] [18
-
-] [19
-
-] (slides.toc) [20
-
-]
-<./images/sanfrancisco.jpg, id=751, 1407.2575pt x 1218.5525pt>
-File: ./images/sanfrancisco.jpg Graphic file (type jpg)
-<use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
-(pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
-<./images/california-sanfrancisco.png, id=752, 623.32875pt x 735.74875pt>
-File: ./images/california-sanfrancisco.png Graphic file (type png)
-<use ./images/california-sanfrancisco.png>
-Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 144.
-(pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-44.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
+(slides.nav)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+8.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-144.
+58.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-144.
+58.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 144.
+(Font)              <6> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 144.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 144.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144
-.
+(Font)              <5> on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
-
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
-
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 58.
 
-[21
+Overfull \hbox (67.39143pt too wide) detected at line 58
+ [] [] [] [] [] [] [] 
+ []
 
- <./images/sanfrancisco.jpg> <./images/california-sanfrancisco.png>]
-File: ./images/sanfrancisco.jpg Graphic file (type jpg)
-<use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
-(pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
-File: ./images/california-sanfrancisco.png Graphic file (type png)
-<use ./images/california-sanfrancisco.png>
-Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 144.
-(pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
-[22
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 60.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 60.
+
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[1{C:/Users/gtlhl/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+ <./images/lsu-logo.png>]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[2
+
+] (slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[3
+
+] (slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[4
 
 ]
-File: ./images/sanfrancisco.jpg Graphic file (type jpg)
-<use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
-(pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
-File: ./images/california-sanfrancisco.png Graphic file (type png)
-<use ./images/california-sanfrancisco.png>
-Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 144.
-(pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
-[23
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[5
 
 ]
-File: ./images/sanfrancisco.jpg Graphic file (type jpg)
-<use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
-(pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
-File: ./images/california-sanfrancisco.png Graphic file (type png)
-<use ./images/california-sanfrancisco.png>
-Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 144.
-(pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
-[24
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[6
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[7
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[8
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 179.
+(Font)              <10.95> on input line 99.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 99.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 179.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/lmss/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/bx/it' tried instead on input line 99.
+
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 99.
+
+LaTeX Font Info:    Font shape `OT1/lmss/b/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/bx/it' tried instead on input line 99.
+
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 99.
+
+LaTeX Font Info:    Font shape `OT1/lmss/b/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/bx/it' tried instead on input line 99.
+
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 99.
+
+
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+[9
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[10
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[11
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[12
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[13
+
+] (slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[14
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[15
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[16
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[17
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[18
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[19
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[20
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[21
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[22
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[23
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[24
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
 
 [25
 
-] [26
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
 
-] [27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
-] [32
-
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
-] (slides.toc) [39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
+[26
 
 ]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
 
-LaTeX Warning: Empty bibliography on input line 215.
+[27
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[28
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[29
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[30
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[31
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[32
+
+] (slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[33
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[34
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[35
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[36
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[37
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[38
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[39
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[40
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[41
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[42
+
+] (slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[43
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[44
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[45
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[46
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[47
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[48
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
 
 [49
 
-] [50
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[50
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[51
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[52
 
 ]
 \tf@nav=\write7
@@ -1489,38 +1728,38 @@ LaTeX Warning: Empty bibliography on input line 215.
 \openout9 = `slides.snm'.
 
 (slides.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: B05D8B10B89C450451671B5D0620FCE8;1739.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                slides
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 50392A9D2E67BB9631864DC4812D60C3;1048.
 Package logreq Info: Writing requests to 'slides.run.xml'.
 \openout1 = `slides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28279 strings out of 478884
- 543884 string characters out of 2849324
- 1037271 words of memory out of 3000000
- 45499 multiletter control sequences out of 15000+600000
- 444068 words of font info for 59 fonts, out of 8000000 for 9000
+ 28080 strings out of 478884
+ 539541 string characters out of 2849324
+ 1033192 words of memory out of 3000000
+ 45301 multiletter control sequences out of 15000+600000
+ 473919 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,124p,1891b,1450s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C
-:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C
-:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C
-:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C
-:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:
-/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><
-C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb>
-Output written on slides.pdf (50 pages, 1007673 bytes).
+ 128i,16n,124p,1891b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+c}{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C
+:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C
+:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C
+:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><
+C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><
+C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><
+C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C
+:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+<C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb
+><C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb
+><C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb
+>
+Output written on slides.pdf (52 pages, 672506 bytes).
 PDF statistics:
- 1778 PDF objects out of 2073 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1728 PDF objects out of 1728 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
