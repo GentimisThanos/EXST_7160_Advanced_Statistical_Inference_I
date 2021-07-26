@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  25 JUL 2021 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  26 JUL 2021 10:27
 entering extended mode
 **./slides.tex
 (slides.tex
@@ -1284,33 +1284,33 @@ Package biblatex Info: Reference segment=0 on input line 56.
 ]
 
 LaTeX Warning: Citation 'dean2008mapreduce' on page 12 undefined on input line 
-104.
+107.
 
 
 LaTeX Warning: Citation 'silver2016mastering' on page 12 undefined on input lin
-e 104.
+e 107.
 
 [12
 
 ]
 
 LaTeX Warning: Citation 'dean2008mapreduce' on page 13 undefined on input line 
-104.
+107.
 
 
 LaTeX Warning: Citation 'silver2016mastering' on page 13 undefined on input lin
-e 104.
+e 107.
 
 [13
 
 ]
 
 LaTeX Warning: Citation 'dean2008mapreduce' on page 14 undefined on input line 
-104.
+107.
 
 
 LaTeX Warning: Citation 'silver2016mastering' on page 14 undefined on input lin
-e 104.
+e 107.
 
 [14
 
@@ -1330,97 +1330,97 @@ e 104.
 <./images/sanfrancisco.jpg, id=751, 1407.2575pt x 1218.5525pt>
 File: ./images/sanfrancisco.jpg Graphic file (type jpg)
 <use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 141.
+Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
 (pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
 <./images/california-sanfrancisco.png, id=752, 623.32875pt x 735.74875pt>
 File: ./images/california-sanfrancisco.png Graphic file (type png)
 <use ./images/california-sanfrancisco.png>
 Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 141.
+ne 144.
 (pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-41.
+44.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-141.
+144.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-141.
+144.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 141.
+(Font)              <8> on input line 144.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 141.
+(Font)              <6> on input line 144.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 141.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 141
+(Font)              <5> on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 144
 .
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 141
+LaTeX Font Info:    Trying to load font information for U+msb on input line 144
 .
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
 
 [21
 
  <./images/sanfrancisco.jpg> <./images/california-sanfrancisco.png>]
 File: ./images/sanfrancisco.jpg Graphic file (type jpg)
 <use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 141.
+Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
 (pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
 File: ./images/california-sanfrancisco.png Graphic file (type png)
 <use ./images/california-sanfrancisco.png>
 Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 141.
+ne 144.
 (pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
 [22
 
 ]
 File: ./images/sanfrancisco.jpg Graphic file (type jpg)
 <use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 141.
+Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
 (pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
 File: ./images/california-sanfrancisco.png Graphic file (type png)
 <use ./images/california-sanfrancisco.png>
 Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 141.
+ne 144.
 (pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
 [23
 
 ]
 File: ./images/sanfrancisco.jpg Graphic file (type jpg)
 <use ./images/sanfrancisco.jpg>
-Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 141.
+Package pdftex.def Info: ./images/sanfrancisco.jpg  used on input line 144.
 (pdftex.def)             Requested size: 215.10196pt x 186.25198pt.
 File: ./images/california-sanfrancisco.png Graphic file (type png)
 <use ./images/california-sanfrancisco.png>
 Package pdftex.def Info: ./images/california-sanfrancisco.png  used on input li
-ne 141.
+ne 144.
 (pdftex.def)             Requested size: 86.03946pt x 101.55588pt.
 [24
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 176.
+(Font)              <10.95> on input line 179.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 176.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 179.
 
 [25
 
@@ -1472,7 +1472,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 212.
+LaTeX Warning: Empty bibliography on input line 215.
 
 [49
 
@@ -1505,8 +1505,8 @@ Package logreq Info: Writing requests to 'slides.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  28279 strings out of 478884
- 543310 string characters out of 2849324
- 1036932 words of memory out of 3000000
+ 543884 string characters out of 2849324
+ 1037271 words of memory out of 3000000
  45499 multiletter control sequences out of 15000+600000
  444068 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1518,7 +1518,7 @@ Here is how much of TeX's memory you used:
 :/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:
 /Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><
 C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb>
-Output written on slides.pdf (50 pages, 1004458 bytes).
+Output written on slides.pdf (50 pages, 1007673 bytes).
 PDF statistics:
  1778 PDF objects out of 2073 (max. 8388607)
  115 named destinations out of 1000 (max. 500000)

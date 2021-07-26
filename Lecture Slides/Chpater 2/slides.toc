@@ -1,0 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Problem Statement}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Importance of the Research}{8}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Literature Review}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Prior Work}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Limitation}{15}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Research Questions}{17}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Study Area and Data}{20}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Study Area}{21}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Data}{25}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Methodology}{39}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{Design of Framework}{40}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Trainging}{43}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{3}{Validation}{46}{0}{5}
