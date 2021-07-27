@@ -113,10 +113,45 @@ where $f$ is the distribution that all $Y_{1}, \cdots, Y_{n}$ follow.
 
     \begin{frame}{Solving the Likelihood}
         \begin{itemize}
-            \item 
+            \item The value of $\boldsymbol{\theta}$ that maximizes the likelihood function $L(\boldsymbol{\theta}; \mathbf{y})$ is called the maximum likelihood estimator (MLE) denoted by $\hat{\boldsymbol{\theta}}_{MLE}$.
+            \item In practice, $\hat{\boldsymbol{\theta}}_{MLE}$ is usually calculated by optimizing the log likelihood function $\log(L(\boldsymbol{\theta}; \mathbf{y}))$
+           \item Note: $\hat{\boldsymbol{\theta}}_{MLE}$  is ``optimal" under some  regularity conditions  (to be discussed in a future topic).
         \end{itemize}
     \end{frame}
  \end{section}
+
+    \begin{frame}{Solving the Likelihood-differentiable likelihoods}
+        \begin{itemize}
+            \item Denote the log likelihood function $\log(L(\boldsymbol{\theta}; \mathbf{y}))$ by $\ell(\boldsymbol{\theta})$, and assume $\ell(\boldsymbol{\theta})$ is differentiable with respect to $\boldsymbol{\theta}$. 
+            \item The procedure for obtaining the MLE from $\ell(\boldsymbol{\theta})$ is
+\begin{enumerate}
+\item Differentiate  $\ell(\boldsymbol{\theta})$ with respect to $\boldsymbol{\theta}$ to obtain the likelihood score function $S(\boldsymbol{\theta}) = (\frac{\partial \ell(\boldsymbol{\theta})}{\partial \theta_{1}}, \cdots, \frac{\partial \ell(\boldsymbol{\theta})}{\partial \theta_{b}})^{T}$.
+\item Find possible MLE cadidates by solving the likelihood equations $S(\boldsymbol{\theta}) = \mathbf{0}_{b \times 1}.$
+\item Check if the solution from the last step is the global maximizer of  $\ell(\boldsymbol{\theta})$. If it is, then the solution is the MLE of $\boldsymbol{\theta}$.
+\end{enumerate}
+        \end{itemize}
+    \end{frame}
+ \end{section}
+
+
+
+    \begin{frame}{An R Example}
+        \begin{itemize}
+            \item
+        \end{itemize}
+    \end{frame}
+ \end{section}
+
+
+    \begin{frame}{Remark}
+        \begin{itemize}
+            \item A non-differentiable likelihood example can be found in Example 7.2.9 of Casella and Berger (2002).
+            \item An example for checking if the solution of the score function equation with two unknown parameters is a global maximizer can be found in Example 7.2.12 of Casella and Berger (2002).
+        \end{itemize}
+    \end{frame}
+ \end{section}
+
+
 
 \begin{section}{Constructing Likelihood Functions}  
     %\subsection{}     %subsection 2
