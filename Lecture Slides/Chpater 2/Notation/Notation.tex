@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+
+
+
+%Basic Preamble:
+
+
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{ amssymb }
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[margin=1in,hmarginratio=1:1,top=20mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{natbib}
+\usepackage{setspace}
+%\usepackage{subcaption}
+\bibliographystyle{apalike}
+%Additional Preamble
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage[font = small,labelfont=bf,textfont=it]{caption} % Custom captions under/above floats in tables or figures
+\linespread{1.05} % Line spacing
+\usepackage{footnote}
+\usepackage{algorithm}% http://ctan.org/pkg/algorithms
+\usepackage[noend]{algpseudocode}% http://ctan.org/pkg/algorithmicx
+\usepackage{enumitem}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{prop}{Proposition}
+%Macros
+
+\makeatletter
+\newcommand{\distas}[1]{\mathbin{\overset{#1}{\kern\z@\sim}}}%
+\newcommand{\bm}[1]{\mathbf{#1}}
+\newsavebox{\mybox}\newsavebox{\mysim}
+\newcommand{\distras}[1]{%
+
+  \savebox{\mybox}{\hbox{\kern3pt$\scriptstyle#1$\kern3pt}}%
+
+  \savebox{\mysim}{\hbox{$\sim$}}%
+
+  \mathbin{\overset{#1}{\kern\z@\resizebox{\wd\mybox}{\ht\mysim}{$\sim$}}}%
+
+}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\hilight}[1]{\colorbox{yellow}{#1}}
+\setlength\heavyrulewidth{1.5pt} %thick top rule
+\newcommand{\tr}[1]{\textrm{#1}}
+\newcommand{\crd}[1]{{\color{red}{#1}}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\stb}{\State $\bullet$ \;}
+
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\makeatother
+%\numberwithin{equation}{section}
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{\oldbibliography{#1}
+\setlength{\itemsep}{0pt}} %Reducing spacing in the bibliography.
+
+
+\usepackage{makecell}
+\usepackage{amsmath}
+%----------------------------------------------------------------------------------------
+
+%	TITLE SECTION
+
+%----------------------------------------------------------------------------------------
+
+\title{Some Note for OSS paper}
+\date{}
+\author{}
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\begin{itemize}
+    \item $Y$ or $X:$ a random variable
+    \item $\mathbf{Y} = (Y_{1}, \cdots, Y_{n})$ or $\mathbf{X} = (X_{1}, \cdots, X_{n}):$ a random row vector
+    \item $\mathbf{X}^{T}:$ transpose of $\mathbf{X},$ i.e., a random column vector.
+    \item $y$  observed data from $Y$ ($x$ is observed data from $X$)
+    \item $\mathbf{y} = (y_{1}, \cdots, y_{n})$ observed data from $\mathbf{Y}$ ($x = (x_{1}, \cdots, x_{n})$ is observed data from $\mathbf{X}$)
+    \item $\boldsymbol{\theta} = (\theta_{1}, \cdots, \theta_{b}):$ a vector contains b unknown parameters.
+    \item iid: independent and identical distributed
+    \item $f(y; \boldsymbol{\theta})$ (or $f(x; \boldsymbol{\theta})$): density function of $Y$ (or $X$) with parameters $\boldsymbol{\theta}$ 
+    \item $F(y; \boldsymbol{\theta})$ (or $F(x; \boldsymbol{\theta})$): distribution function of $Y$ (or $X$) with parameters $\boldsymbol{\theta}$
+    \item $f(\mathbf{y};\boldsymbol{\theta})$  (or $F(\mathbf{y};\boldsymbol{\theta})$): joint density function of $\mathbf{Y}$  (or $\mathbf{X}$) with parameters $\boldsymbol{\theta}$:
+    \item $F(\mathbf{y}; \boldsymbol{\theta})$  (or $F(\mathbf{x}; \boldsymbol{\theta})$): joint distribution function of $\mathbf{Y}$  (or $\mathbf{X}$) with parameters $\boldsymbol{\theta}$
+    \item $L(\boldsymbol{\theta}|\mathbf{y}):$ the likelihood function of $\boldsymbol{\theta}$ given data $\mathbf{y}$.
+    \item $\hat{\boldsymbol{\theta}}_{MLE}:$ the maximum likelihood estimator (MLE) of $\boldsymbol{\theta}$.
+    \item $\argmax_{\boldsymbol{\theta}} g(\boldsymbol{\theta}):$ The value of $\boldsymbol{\theta}$ that makes $g(\boldsymbol{\theta})$ achieve maximum.
+    \item $\frac{\partial g(\boldsymbol{\theta})}{\partial \boldsymbol{\theta}}:$ the derivative of function $g$ with respect to $\boldsymbol{\theta}$
+    \item $\bar{y}:$ the sample average, i.e., $\frac{\sum^{n}_{i=1}y_{i}}{n}$
+    \item $\prod^{n}_{i=1}x_{i}$: The cumulative product from $x_{1}$ to $x_{n}$
+    \item $g^{-1}:$ the inverse of $g(\cdot)$.
+\end{itemize}
+\end{document}

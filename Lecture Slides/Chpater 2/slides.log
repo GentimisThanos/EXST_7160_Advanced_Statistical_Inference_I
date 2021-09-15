@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  27 JUL 2021 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.6.5)  27 JUL 2021 17:03
 entering extended mode
-**"C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/L
-ecture Slides/Chpater 2/slides.tex"
-
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2/slides.tex
+**./slides.tex
+(slides.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01>
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -1039,9 +1036,7 @@ whale.sty)
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
 orchid.sty)
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-rectangles.sty))
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\beamercolorthemetigers.sty
+rectangles.sty)) (beamercolorthemetigers.sty
 Package: beamercolorthemetigers 2021/05/15 v3.1.9a (3.1.9a)
 )
 
@@ -1064,9 +1059,7 @@ tex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count456
 \l__pdf_internal_box=\box75
-)
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.aux)
+) (slides.aux)
 \openout1 = `slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -1162,11 +1155,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
 LaTeX Info: Redefining \nameref on input line 58.
-
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.out)
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.out)
+(slides.out) (slides.out)
 \@outlinefile=\write6
 \openout6 = `slides.out'.
 
@@ -1278,9 +1267,7 @@ Package biblatex Info: ... file 'slides.bbl' not found.
 No file slides.bbl.
 Package biblatex Info: Reference section=0 on input line 58.
 Package biblatex Info: Reference segment=0 on input line 58.
-
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.nav)
+(slides.nav)
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
 8.
 (C:\Users\gtlhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
@@ -1338,26 +1325,21 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 
 [1{C:/Users/gtlhl/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
- <C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Le
-cture Slides/Chpater 2/images/lsu-logo.png>]
+ <./images/lsu-logo.png>]
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [2
 
-]
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.toc)
+] (slides.toc)
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
 [3
 
-]
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.toc)
+] (slides.toc)
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1370,27 +1352,6 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  []
 
 [5
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[6
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[7
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[8
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1432,49 +1393,28 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <5> not available
 (Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 99.
+[6
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[7
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[8
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
 [9
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[10
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[11
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[12
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[13
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[14
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[15
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10> not available
@@ -1506,6 +1446,111 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
 
+[10
+
+]
+
+! LaTeX Error: \begin{document} ended by \end{section}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134  \end{section}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.134  \end{section}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[11
+
+]
+
+! LaTeX Error: \begin{document} ended by \end{section}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143  \end{section}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.143  \end{section}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[12
+
+]
+
+! LaTeX Error: \begin{document} ended by \end{section}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152  \end{section}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.152  \end{section}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+(slides.toc)
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[13
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[14
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
+[15
+
+]
+Overfull \hbox (67.39143pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] 
+ []
+
 [16
 
 ]
@@ -1529,7 +1574,7 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 
 [19
 
-]
+] (slides.toc)
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1537,27 +1582,6 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 [20
 
 ]
-
-! LaTeX Error: \begin{document} ended by \end{section}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134  \end{section}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.134  \end{section}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1565,27 +1589,6 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 [21
 
 ]
-
-! LaTeX Error: \begin{document} ended by \end{section}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143  \end{section}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.143  \end{section}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1599,30 +1602,7 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 
 [23
 
-]
-
-! LaTeX Error: \begin{document} ended by \end{section}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152  \end{section}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.152  \end{section}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.toc)
+] (slides.toc)
 Overfull \hbox (67.39143pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] 
  []
@@ -1651,255 +1631,6 @@ Overfull \hbox (67.39143pt too wide) has occurred while \output is active
 [27
 
 ]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[28
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[29
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[30
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[31
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[32
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[33
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[34
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[35
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[36
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[37
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[38
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[39
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[40
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[41
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[42
-
-]
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.toc)
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[43
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[44
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[45
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[46
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[47
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[48
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[49
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[50
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[51
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[52
-
-]
-(C:/Users/gtlhl/Documents/GitHub/EXST_7160_Advanced_Statistical_Inference_I/Lec
-ture Slides/Chpater 2\slides.toc)
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[53
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[54
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[55
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[56
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[57
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[58
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[59
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[60
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[61
-
-]
-Overfull \hbox (67.39143pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] 
- []
-
-[62
-
-]
 \tf@nav=\write7
 \openout7 = `slides.nav'.
 
@@ -1917,13 +1648,13 @@ Package logreq Info: Writing requests to 'slides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28159 strings out of 478884
- 542247 string characters out of 2849324
- 1035192 words of memory out of 3000000
- 45356 multiletter control sequences out of 15000+600000
+ 28086 strings out of 478884
+ 540369 string characters out of 2849324
+ 1035190 words of memory out of 3000000
+ 45355 multiletter control sequences out of 15000+600000
  489570 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,124p,1991b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,16n,124p,1891b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
 c}{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
@@ -1941,9 +1672,9 @@ C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
 <C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso8.pfb>
 <C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 <C:/Users/gtlhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on slides.pdf (62 pages, 765763 bytes).
+Output written on slides.pdf (27 pages, 519113 bytes).
 PDF statistics:
- 2050 PDF objects out of 2073 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 972 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
