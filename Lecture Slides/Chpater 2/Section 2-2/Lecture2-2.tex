@@ -184,20 +184,6 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
     \end{frame}
     
     
-    \begin{frame}{Generalized Linear models}
-        \begin{itemize}
-            \item Generalized linear models introduced by Nelder and Wedderburn (1972) are another
-important class of nonlinear models that generalizes the normal linear model.
-            
-            \item It assumes the log density of $Y_{i}$ possess the form:
-            \begin{equation}
-                \log f(y_{i};\theta_{i}, \phi) = \frac{y_{i}\theta_{i}-b(\theta_{i})}{a_{i}(\phi)} + c(y_{i}, \phi). \label{eq: LikeexpoF}
-            \end{equation}
-            \item The density of $Y_{i}$ is almost an exponential family density except for the dispersion
-term $a_{i}(\phi)$, where $a_{i}$ is a known function and $\phi$ is possibly an unknown parameter. In exponential family language, $\theta_{i}$ is called the natural or canonical parameter. (Explain this language)
-        \end{itemize}
-    \end{frame}
-    
     
       \begin{frame}{Generalized Linear models}
       Generalized linear models are introduced by Nelder and Wedderburn (1972). They are another important class of nonlinear models that generalizes the normal linear model and is made up of a linear predictor $$\eta_{i} = \mathbf{x}^{T}_{i}\beta$$ and two functions:
