@@ -102,12 +102,12 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
     
 \begin{frame}{Linear Models}
         \begin{itemize}
-            \item Suppose we observed $p$ covariates from each observation $\mathbf{x}_{i}, i = 1, \cdots, n$ and the associated response $y_{i}$. A normal linear model is the most common regression model for describing the relationship between $\mathbf{x}_{i}$ and $y_{i}$ that can be expressed as 
+            \item Suppose we observed $p$ covariates from each observation $\boldsymbol{x}_{i}, i = 1, \cdots, n$ and the associated response $y_{i}$. A normal linear model is the most common regression model for describing the relationship between $\boldsymbol{x}_{i}$ and $y_{i}$ that can be expressed as 
             \begin{equation}
                Y_{i} = x^{T}_{i}\beta + e_{i}, \label{eq: normalM}
             \end{equation}
             where $e_{1}, \cdots, e_{n}$ are iid $N(0, \sigma^2)$, and $\boldsymbol{\beta}$ are an unknown $p$-dimensional vector.
-            \item The first component of $\mathbf{x}_{i}$ is usually the constant “1” corresponding to an intercept, the first component of $\boldsymbol{\beta}$.
+            \item The first component of $\boldsymbol{x}_{i}$ is usually the constant “1” corresponding to an intercept, the first component of $\boldsymbol{\beta}$.
             \item In this section, we are interested in constructing likelihood function for unknown parameters $\boldsymbol{\theta} = (\boldsymbol{\beta}, \sigma)$ and extend the normal linear model to non-normal models.
         \end{itemize}
     \end{frame}
@@ -116,15 +116,15 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
 %\item The likelihood function typically leads to essentially automatic methods of inference, including point estimation, interval estimation, and hypothesis testing.
     \begin{frame}{Likelihood for Normal Linear Models}
         \begin{itemize}
-            \item The likelihood of data $\{\mathbf{y}_{i}, \mathbf{x}_{i}\}^{n}_{i=1}$ from the normal linear models (\ref{eq: normalM}) is
+            \item The likelihood of data $\{\boldsymbol{y}_{i}, \boldsymbol{x}_{i}\}^{n}_{i=1}$ from the normal linear models (\ref{eq: normalM}) is
             \begin{eqnarray}
-                L(\boldsymbol{\beta}, \sigma |\{\mathbf{y}_{i}, \mathbf{x}_{i}\}^{n}_{i=1}) & = & \prod^{n}_{i=1}\frac{1}{\sqrt{2\pi}\sigma}\exp\left(-\frac{(y_{i}-\mathbf{x}^{T}_{i}\beta)^2}{2\sigma^2}\right) \nonumber \\
-                & = & \left(\frac{1}{\sqrt{2\pi}\sigma}\right)^{n}\exp\left(-\sum^{n}_{i=1}\frac{(y_{i}-\mathbf{x}^{T}_{i}\beta)^2}{2\sigma^2}\right) \nonumber
+                L(\boldsymbol{\beta}, \sigma |\{\boldsymbol{y}_{i}, \boldsymbol{x}_{i}\}^{n}_{i=1}) & = & \prod^{n}_{i=1}\frac{1}{\sqrt{2\pi}\sigma}\exp\left(-\frac{(y_{i}-\boldsymbol{x}^{T}_{i}\beta)^2}{2\sigma^2}\right) \nonumber \\
+                & = & \left(\frac{1}{\sqrt{2\pi}\sigma}\right)^{n}\exp\left(-\sum^{n}_{i=1}\frac{(y_{i}-\boldsymbol{x}^{T}_{i}\beta)^2}{2\sigma^2}\right) \nonumber
             \end{eqnarray}
-            \item Based on the likelihood, the maximum likelihood estimator of $\boldsymbol{\beta}$ is $\hat{\boldsymbol{\beta}}_{MLE} = (\mathbf{X}^{T}\mathbf{X})^{-1}\mathbf{X}^{T}\mathbf{Y},$
-            where $\mathbf{X} = (x_{1}, \cdots, x_{n})^{T}$ an $n \times p$ matrix, and $\mathbf{X}^{T}\mathbf{X}$ is assumed to be nonsigular.
+            \item Based on the likelihood, the maximum likelihood estimator of $\boldsymbol{\beta}$ is $\hat{\boldsymbol{\beta}}_{MLE} = (\boldsymbol{X}^{T}\boldsymbol{X})^{-1}\boldsymbol{X}^{T}\boldsymbol{Y},$
+            where $\boldsymbol{X} = (x_{1}, \cdots, x_{n})^{T}$ an $n \times p$ matrix, and $\boldsymbol{X}^{T}\boldsymbol{X}$ is assumed to be nonsigular.
             \item The MLE of $\sigma^2 = \sum^{n}_{i=1} \hat{e}_{i},$
-            where $\hat{e}_{i} = y_{i} - \mathbf{x}^{T}_{i}\hat{\boldsymbol{\beta}}_{MLE}$ is the residual from $i$-th data for $i = 1, \cdots, n$. (Check the MLEs by yourself!)
+            where $\hat{e}_{i} = y_{i} - \boldsymbol{x}^{T}_{i}\hat{\boldsymbol{\beta}}_{MLE}$ is the residual from $i$-th data for $i = 1, \cdots, n$. (Check the MLEs by yourself!)
         \end{itemize}
     \end{frame}
 
@@ -133,11 +133,11 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
         \begin{itemize}
             \item Instead of the assumption of putting the error term from model (\ref{eq: normalM}) following a  normal distribution, we may assume the error term follows other distributions.
             \item A popular choice is to assume $e_{i}$ following a scale-family distribution whose density is \begin{equation}
-            \frac{1}{\sigma}f_{e}\left(\frac{y_{i} - \mathbf{x}^{T}_{i}\boldsymbol{\theta}}{\sigma}\right);
+            \frac{1}{\sigma}f_{e}\left(\frac{y_{i} - \boldsymbol{x}^{T}_{i}\boldsymbol{\theta}}{\sigma}\right);
             \end{equation}
             for example, the extreme value density is one of the distribution in the scale family and its density is $f_{e}(t) = \exp(-t) \times \exp(-\exp(-t)).$
         \item The likelihood function becomes
-        $$\prod^{n}_{i=1}\frac{1}{\sigma}f_{e}\left(\frac{y_{i} - \mathbf{x}^{T}_{i}\boldsymbol{\theta}}{\sigma}\right)$$
+        $$\prod^{n}_{i=1}\frac{1}{\sigma}f_{e}\left(\frac{y_{i} - \boldsymbol{x}^{T}_{i}\boldsymbol{\theta}}{\sigma}\right)$$
         \end{itemize}
     \end{frame}
     
@@ -159,16 +159,16 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
 
     \begin{frame}{Additive Errors Nonlinear Model}
         \begin{itemize}
-            \item The standard nonlinear regression model is very similar to (\ref{eq: normalM}) but considering $Y_{i} = g(\mathbf{x}_{i}, \boldsymbol{\beta}) + e_{i},$
+            \item The standard nonlinear regression model is very similar to (\ref{eq: normalM}) but considering $Y_{i} = g(\boldsymbol{x}_{i}, \boldsymbol{\beta}) + e_{i},$
             where $g$ is a known function with unknown parameters $\boldsymbol{\beta}$.
             \item Common examples include 
             \begin{itemize}
-                \item Exponential growth model $g(\mathbf{x}_{i}, \boldsymbol{\beta}) = \beta_{0}\exp(\beta_{1}x_{i})$
+                \item Exponential growth model $g(\boldsymbol{x}_{i}, \boldsymbol{\beta}) = \beta_{0}\exp(\beta_{1}x_{i})$
                 \item logistic growth model $g(x_{i}, \boldsymbol{\beta}) = \beta_{0}(1+\beta_{1}\exp(-\beta_{2}x_{i}))$
             \end{itemize}
             \item The MLE is from maximizing
              \begin{eqnarray}
-                L(\boldsymbol{\beta}, \sigma |\{\mathbf{y}_{i}, \mathbf{x}_{i}\}^{n}_{i=1}) 
+                L(\boldsymbol{\beta}, \sigma |\{\boldsymbol{y}_{i}, \boldsymbol{x}_{i}\}^{n}_{i=1}) 
                 & = & \left(\frac{1}{\sqrt{2\pi}\sigma}\right)^{n}\exp\left(-\sum^{n}_{i=1}\frac{(y_{i}-{{\color{blue} g(x_{i}, \boldsymbol{\beta}})})^2}{2\sigma^2}\right) \nonumber
             \end{eqnarray}
             \item The MLE of $\boldsymbol{\beta}$ has no closed form but the MLE of $\sigma^2$ is  
@@ -184,80 +184,74 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
     \end{frame}
     
     
-    
-      \begin{frame}{Generalized Linear models}
-      Generalized linear models are introduced by Nelder and Wedderburn (1972). They are another important class of nonlinear models that generalizes the normal linear model and is made up of a linear predictor $$\eta_{i} = \mathbf{x}^{T}_{i}\beta$$ and two functions:
+    \begin{frame}{Generalized Linear models}
         \begin{itemize}
-        \item A link function that describes how the mean, $\mu = E(Y_{i})$,  depends on the linear predictor $$ g(\mu_{i}) = \eta_{i} = \mathbf{x}^{T}_{i}\boldsymbol{\beta}$$
-        \item A variance function that describes how the variance depends on the mean
-        $$Var(Y_{i}) = V(\mu)a(\phi),$$
-        where $a(\phi)$ is a function of dispersion parameter $\phi$. 
+            \item Generalized linear models introduced by Nelder and Wedderburn (1972) are another
+important class of nonlinear models that generalizes the normal linear model. It assumes the log density of $Y_{i}$ with parameters $\theta_{i}$ possess the form:
+            \begin{equation}
+                \log f(y_{i};\theta_{i}, \phi) = \frac{y_{i}\theta_{i}-b(\theta_{i})}{a_{i}(\phi)} + c(y_{i}, \phi). \label{eq: LikeexpoF}
+            \end{equation}
+            \item $a_{i}(\cdot)$ is a known function  and $\phi$ is possibly an unknown parameter called dispersion parameters.
+            \item Densities satisfying form (\ref{eq: LikeexpoF}) belong a generalized exponential family. For the students who are not familiar with exponential faimily, please check Appendix B of Section 2 in the Textbook.
+            \item GLM can be used for regression modeling of various type responses, including continuous and categorical responses.
+            
+            
+            
         \end{itemize}
     \end{frame}
+    %The density of $Y_{i}$ is almost an exponential family density except for the dispersion term $a_{i}(\phi)$, where $a_{i}$ is a known function and $\phi$ is possibly an unknown parameter. In exponential family language, $\theta_{i}$ is called the natural or canonical parameter. (Explain this language)
     
-     
-         \begin{frame}{Example 1 Normal Linear Models}
-         \begin{itemize}
-         \item In normal linear model (\ref{eq: normalM}), $Y_{i} \sim N(\mathbf{x}^{T}_{i}\boldsymbol{\beta}, \sigma^{2})$.
-        \item The link function is identity link function, i.e. $g(\cdot) = 1$, and
-        $$\mu = \mathbf{x}^{T}_{i}\boldsymbol{\beta}$$
-        \item The variance function is $1$.
-        \end{itemize}
-        \end{frame}
-        
-        
-        \begin{frame}{Example 2: Logistic Linear Models}
+    %  \begin{frame}{Generalized Linear models}
+    %  Generalized linear models are introduced by Nelder and Wedderburn (1972). They are another important class of nonlinear models that generalizes the normal linear model and is made up of a linear predictor $$\eta_{i} = \boldsymbol{x}^{T}_{i}\beta$$ and two functions:
+    %    \begin{itemize}
+    %    \item A link function that describes how the mean, $\mu = E(Y_{i})$,  depends on the linear predictor $$ g(\mu_{i}) = \eta_{i} = \boldsymbol{x}^{T}_{i}\boldsymbol{\beta}$$
+    %    \item A variance function that describes how the variance depends on the mean
+    %    $$Var(Y_{i}) = V(\mu)a(\phi),$$
+    %    where $a(\phi)$ is a function of dispersion parameter $\phi$. 
+    %    \end{itemize}
+    %\end{frame}
+    
+    
+                  \begin{frame}{Example of the Exponential Family: Normal Distribution}
         \begin{itemize}
-         \item For binary data, $Y_{i}$ is following a Bernoulli distribution with parameter $E(Y_{i}) = p_{i}$ for $i = 1, \cdots, n$.
-        \item A popular link function is called logistic link, $g(p_{i}) = \log\left(\frac{p_{i}}{1-p_{i}}\right),$ i.e, 
-        $$\log\left(\frac{p_{i}}{1-p_{i}}\right) = \mathbf{x}^{T}_{i}\boldsymbol{\beta}$$
-        \item Variance function $V(p_{i}) = p_{i}(1-p_{i})$ and $a_{i}(\phi) = 1$ (because $Var(Y_{i})) = p_{i}(1-p_{i})$
-        \end{itemize}
-        \end{frame}
-        
-        
-        \begin{frame}{General Exponential Family}
-        \begin{itemize}
-         \item The normal and bernoulli density belongs to a family of density functions called general exponential family. If $Y_{i}$ is from the family, its log density can be expressed as
-         \begin{equation}
-                \log f(y_{i};\theta_{i}, \phi) = \frac{y_{i}\theta_{i}-b(\theta_{i})}{a_{i}(\phi)} + c(y_{i}, \phi), \label{eq: LikeexpoF}
-        \end{equation}
-        where $a_{i}$ is a known function of dispersion parameter $\phi$.
-        \end{itemize}
-        \end{frame}
-        
-               \begin{frame}{Example of Exponential Family: Normal Distribution}
-        \begin{itemize}
-            \item Consider the normal density
+            \item Consider $Y$ is a continuous random variable the normal density
             \begin{eqnarray}
                  f(y; \mu, \sigma) & = & -\log\left(\sqrt{2\pi}\sigma\right) - \frac{(y-\mu)^2}{2\sigma^2} \nonumber\\
                  & = & \frac{y\mu-\mu^2/2}{\sigma^2} - \log\left(\sqrt{2\pi}\sigma\right) - \frac{y^2}{2\sigma^2}.
             \end{eqnarray}
             \item Thus,
             $$
-            \theta = \mu, b(\theta) = \frac{\mu^2}{2}, a_{i}(\phi) = \sigma^2,\ \mbox{and}\ c(y_{i}, \phi) = \log(\sigma\sqrt{2\pi})-\frac{y^2}{2\sigma^2}.
+            \theta_{i} = \mu_{i}, b(\theta_{i}) = \frac{\mu^2_{i}}{2}, a_{i}(\phi) = \sigma^2,\ \mbox{and}\ c(y_{i}, \phi) = \log(\sigma\sqrt{2\pi})-\frac{y^2_{i}}{2\sigma^2}.
             $$
         \end{itemize}
     \end{frame}
        
 
-           \begin{frame}{Example of Exponential Family: Bernoulli Distribution}
+           \begin{frame}{Example of the Exponential Family: Bernoulli Distribution}
         \begin{itemize}
-            \item Consider the Bernoulli density
-            $$f(y; p) = p^{y} (1-p)^{1-y}$$
-            and we want to show that the density is one of the densities in the family (\ref{eq: LikeexpoF}).
+            \item Consider $Y$ is a binary random variable from Bernoulli density
+            $$f(y; p) = p^{y} (1-p)^{1-y},$$
+            where $E(Y) = p$.
            \item Because 
            $$\log f(y; p) = y \log p + (1-y)\log(1-p) = y\log (\frac{p}{1-p}) + \log(1-p),$$
            we obtain 
-           $a_{i}(\phi) = 1, c(y_{i}, \phi) = 0, theta = \log\{\frac{p}{1-p}\}.$
-           \item Hence,  $p = 1/\{1+\exp(-\theta)\},$ so that
-             $$b(\theta) = -\log(1-p) = -\log\left\{-\frac{1}{1+\exp(-\theta)}\right\} = \log\{1+\exp(\theta)\}.$$
-         
+           $a_{i}(\phi) = 1, c(y_{i}, \phi) = 0, \theta_{i} = \log\{\frac{p_{i}}{1-p_{i}}\}.$
+           \item Hence,  $p_{i} = 1/\{1+\exp(-\theta_{i})\},$ so that
+             $$b(\theta_{i}) = -\log(1-p_{i}) = -\log\left\{-\frac{1}{1+\exp(-\theta_{i})}\right\} = \log\{1+\exp(\theta_{i})\}.$$
         \end{itemize}
     \end{frame}
     
-
-    
+               \begin{frame}{Example of the Exponential Family: Poisson Distribution}
+        \begin{itemize}
+            \item Consider $Y$ is a random variable from Poisson density
+            $$f(y; p) = \frac{ \theta^{y} e^{-\lambda}  }{y!},$$
+            where $E(Y) = \theta$.
+           \item Because 
+           $$\log f(y; p) =  y\log\lambda - \lambda - \log(y!),$$
+           we obtain 
+           $$\theta_{i} = \log(\lambda_{i}), b(\theta_{i}) = e^{\theta_{i}} = \lambda_{i}, a_{i}(\phi) = 1, c(y_{i}, \phi) = - \log(y_{i}!).$$
+        \end{itemize}
+    \end{frame}
     
      
         \begin{frame}{Mean and Variance of the Exponential Family}
@@ -283,60 +277,122 @@ Levels & 123 & 122 & 120 & 114 & 96 & 125 & 124 & 120 & 132 & 166 & 134 & 138 & 
      
         \begin{frame}{Canonical Link Functions for GLM}
         \begin{itemize}
-            \item Fro a GLM where the response follows a general exponential distribution, we have
-            $$g(\mu_{i}) = b'^{-1}(\mu_{i}) = \mathbf{x}^{T}_{i}\boldsymbol{\beta}$$
+            \item Fro a GLM, besides selecting a distribution to model response variable $Y$, we need to choose a link function $g(\cdot)$ to connect the mean of $Y$ with the linear predictor $\boldsymbol{x}_{i}\boldsymbol{\beta},$ i.e.,
+            $$g(E(Y)) =  \boldsymbol{x}_{i}\boldsymbol{\beta}$$
+            \item In general, the link can be any function who is invertible. Then, for Y is from density (\ref{eq: LikeexpoF}), we know
+            $$g(b'(\theta_{i})) = g(E(Y_{i})) = \boldsymbol{x}_{i}\boldsymbol{\beta}.$$
+            \item If we further choose $g(\cdot) =  b'^{-1}(\cdot),$  then
+            $$g(E(Y_{i})) = g(b'(\theta_{i})) = \theta_{i} = \boldsymbol{x}_{i}\boldsymbol{\beta}$$
             \item The link $g(\cdot) = b'^{-1}(\cdot)$ is called the canonical link.
-            \item Canonical links lead to desirable statistical properties of the GLM, so it tends to be used as a default link.  
+            \item Canonical links lead to desirable statistical properties of the GLM, so it tends to be used as a default link in GLM.  
             
         \end{itemize}
         \end{frame}
         
         
+        
+        \begin{frame}{Examples of Canonical Links}
+         \begin{table}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        Density of $Y$ & $E(Y)$ & $\theta$ & $g(E(Y))$ \\
+                \hline
+        Normal & $E(Y) = \mu$ & $\theta = \mu$ & $ \mu = \boldsymbol{x}^{T}\boldsymbol{\beta}$ \\
+        Bernoulli & $E(Y) = p$ & $\theta = \log(\frac{p}{1-p})$ & $\log(\frac{p}{1-p}) = \boldsymbol{x}^{T}\boldsymbol{\beta}$ \\
+        Poisson & $E(Y) = \lambda$ & $\theta = \log(\lambda)$ & $ \log(\lambda) = \boldsymbol{x}^{T}\boldsymbol{\beta}$ \\
+                \hline
+        \end{tabular}
+        \end{table}
+        \end{frame}
+
+        
         \begin{frame}{Likelihood for the GLM}
         \begin{itemize}
-            \item 
-            $$\log L(\boldsymbol{\beta}, \phi|\{y_{i}, \mathbf{x}_{i}\}^{n}_{i=1}) \sum^{n}_{i=1}\left\{\frac{y_{i}\mathbf{x}^{T}_{i}\boldsymbol{\beta} - b(\mathbf{x}^{T}_{i}\boldsymbol{\beta})}{a_{i}(\phi)} + c(y_{i}, \phi)\right\}$$
+            \item By using the canonical link in GLM, the log likelihood of the dataset $\{(y_{i}, x_{i})\}^{n}_{i=1}$ is
+            $$\log L(\boldsymbol{\beta}, \phi|\{y_{i}, \boldsymbol{x}_{i}\}^{n}_{i=1}) \sum^{n}_{i=1}\left\{\frac{y_{i}\boldsymbol{x}^{T}_{i}\boldsymbol{\beta} - b(\boldsymbol{x}^{T}_{i}\boldsymbol{\beta})}{a_{i}(\phi)} + c(y_{i}, \phi)\right\}$$
             
         \end{itemize} 
         \end{frame}
         
-        \begin{frame}{Examples}
+        \begin{frame}{Generalized Linear Mixed Model (GLMM)}
         \begin{itemize}
-            \item 
+            \item So far we have considered only fixed effect models in which the input $\boldsymbol{x}$ are fixed in advance. For example, in the Venice dataset, the input year is "fixed" from 1 to 51. If instead the year effect is said to have arisen from a statistical distribution, then we have a {\bf random effects} model. 
+            
+            \item GLMM extends GLM to include not only fixed effects but also random effect terms in the inputs. Such model considers $Y_{i}$ whose log density can be expressed as
+            $$\log f_{Y_{i}|\boldsymbol{U}}(y_{i}|\boldsymbol{U}, \boldsymbol{x}_{i}, \boldsymbol{z}_{i}, \boldsymbol{\beta}, \phi) = \frac{y_{i}\theta_{i} - b(\theta_{i})}{a_{i}(\phi)} + c(y_{i}, \phi)
+            \label{eq: dGLMM}$$
+            and
+            $$\theta_{i} = \boldsymbol{x}^{T}_{i}\boldsymbol{\beta} + \boldsymbol{z}^{T}_{i}\boldsymbol{U},$$
+            where $\boldsymbol{U}$ is a random effect vector term following a density $f_{\boldsymbol{U}}(\boldsymbol{u}|\boldsymbol{v})$ with parameters $\boldsymbol{v}$ and $\boldsymbol{z}_{i}$ are known nonrandom predictors
+
         \end{itemize} 
         \end{frame}
 
-
-        
-        \begin{frame}{Generalized Linear Mixed Model}
+        \begin{frame}{GLMM (Cont.)}
         \begin{itemize}
-            \item
-            
-            $$\log f_{Y_{i}|U_{i}}(y_{i}|\mathbf{U}, \mathbf{x}_{i}, \mathbf{z}_{i}, \boldsymbol{\beta}, \tau) = \frac{y_{i}\eta_{i}-b(\eta_{i})}{\tau} + c(y_{i}, \tau),$$
-            where $\eta_{i} = \mathbf{x}^{T}_{i}\boldsymbol{\beta} + \mathbf{z}^{T}_{i}\mathbf{U}$ is the linear predictor now enhanced to include the random effects $\mathbf{U}$ via the terms $\mathbf{z}^{T}_{i}\mathbf{U}$
-            \item In Normal distribution case, $$\mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \mathbf{Z}\mathbf{U} + e$$
-            here written in the familiar vector form $\mathbf{X} = (\mathbf{x}^{T}_{1}, \cdots, \mathbf{x}^{T}_{n})$ and $\mathbf{X} = (\mathbf{z}^{T}_{1}, \cdots, \mathbf{z}^{T}_{n})$
-            
-            $$\int \prod^{n}_{i=1} f_{Y_{i}|\mathbf{U}}f(\mathbf{u})d\mathbf{U}$$
+            \item In the normal distribution case, GLMM becomes the usual linear mixed model $\boldsymbol{Y} = \boldsymbol{X}\boldsymbol{\beta} +  \boldsymbol{Z}\boldsymbol{U} + \boldsymbol{e},$ where $\mathbf{X} = (\mathbf{x}^{T}_{1}, \cdots, \mathbf{x}^{T}_{n} )$ and $\mathbf{Z} = (\mathbf{z}^{T}_{1}, \cdots, \mathbf{z}^{T}_{n}).$ 
+            \item Suppose $Y_{1}, \cdots, Y_{n}$ are conditionally independent from (\ref{eq: dGLMM}), then the likelihood of GLMM is
+            $$\hspace{- 0.5 cm} L(\boldsymbol{\beta}, \phi, \boldsymbol{v}|\{y_{i}, x_{i}, z_{i}\}^{n}_{i=1}) = \int \prod^{n}_{i=1} \log f_{Y_{i}|\boldsymbol{U}}(y_{i}|\boldsymbol{U}, \boldsymbol{x}_{i}, \boldsymbol{z}_{i}, \boldsymbol{\beta}, \phi)f_{\boldsymbol{U}}(\boldsymbol{u}|\boldsymbol{v})d\boldsymbol{u}
+            $$
+            \item Note integration over $\boldsymbol{u}$ is required because $\mathbf{U}$ is not ovserved, and the likelihood is the density of the observed data.
+            \item In general, the likelihood is not easy to calculate or maximize. Breslow and Clayton (1993) and McCullagh (1997) give some of the important approaches for finding the maximum likelihood estimators, but this remains an active area of research. 
         \end{itemize} 
         \end{frame}
+
 
 
        \begin{frame}{Accelerated Failure Model}
         \begin{itemize}
             \item Accelerated Failure Models comprise an important class of regression models for censored data. For the ease of random right censoring, the model is 
-            $$\log T_{i} = \mathbf{x}^{T}_{i}\boldsymbol{\beta}, $$
+            $$\log T_{i} = \boldsymbol{x}^{T}_{i}\boldsymbol{\beta}, $$
             where we observe $Y_{i} = \min\left(\log T_{i}, \log R_{i}\right),$ and $R_{i}$ is a censoring time that is assumed independent of $T_{t}$
-            \item The typical models for the errors $e_{i}$ are standard normal, logistic, or the logatithm of a standard exponential random variabl whose density is $f_{e} = e^{z}e^{-e^{z}}$.
+            \item The typical models for the errors $e_{i}$ are standard normal, logistic, or the logatithm of a standard exponential random variable whose density is $f_{e} = e^{z}e^{-e^{z}}$.
             \item The likelihood for parameters $\boldsymbol{\beta}$ and $\sigma$ with using error density $f_{e}$ and distribution $F_{e}$ is 
-            $$L(\boldsymbol{\beta}, \sigma|\{y_{i}, \delta_{i}, \mathbf{x}_{i}\}^{n}_{i=1}) = \prod^{n}_{i=1}\left[\frac{1}{\sigma}f_{e}(r_{i})\right]^{\delta_{i}}\left[1 - F_{e}(r_{i})\right]^{\delta_{i}},$$
-            where $\delta_{i} = I(y_{i} = \log t_{i})$ and $r_{i} = (y_{i} - \mathbf{x}^{T}_{i}\boldsymbol{\beta})/\sigma.$ 
+            $$L(\boldsymbol{\beta}, \sigma|\{y_{i}, \delta_{i}, \boldsymbol{x}_{i}\}^{n}_{i=1}) = \prod^{n}_{i=1}\left[\frac{1}{\sigma}f_{e}(r_{i})\right]^{\delta_{i}}\left[1 - F_{e}(r_{i})\right]^{\delta_{i}},$$
+            where $\delta_{i} = I(y_{i} = \log t_{i})$ and $r_{i} = (y_{i} - \boldsymbol{x}^{T}_{i}\boldsymbol{\beta})/\sigma.$ 
            
         \end{itemize}
     \end{frame}
     
+           \begin{frame}{Example for Accelerated Failure Model}
+        \begin{itemize}
+            \item 
+           
+        \end{itemize}
+    \end{frame}
 
 
 
 \end{document}
 
+
+         \begin{frame}{Example 1 Normal Linear Models}
+         \begin{itemize}
+         \item In normal linear model (\ref{eq: normalM}), $Y_{i} \sim N(\boldsymbol{x}^{T}_{i}\boldsymbol{\beta}, \sigma^{2})$.
+        \item The link function is identity link function, i.e. $g(\cdot) = 1$, and
+        $$\mu = \boldsymbol{x}^{T}_{i}\boldsymbol{\beta}$$
+        \item The variance function is $V(\mu) = 1$ and dispersion parameter function $a(\phi) = \sigma^2$.
+        \end{itemize}
+        \end{frame}
+        
+        
+        \begin{frame}{Example 2: Logistic Linear Models}
+        \begin{itemize}
+         \item For binary data, $Y_{i}$ is following a Bernoulli distribution with parameter $E(Y_{i}) = p_{i}$ for $i = 1, \cdots, n$.
+        \item A popular link function is called logistic link, $g(p_{i}) = \log\left(\frac{p_{i}}{1-p_{i}}\right),$ i.e, 
+        $$\log\left(\frac{p_{i}}{1-p_{i}}\right) = \boldsymbol{x}^{T}_{i}\boldsymbol{\beta}$$
+        \item Variance function $V(p_{i}) = p_{i}(1-p_{i})$ and $a_{i}(\phi) = 1$ (because $Var(Y_{i})) = p_{i}(1-p_{i})$
+        \end{itemize}
+        \end{frame}
+        
+        
+        \begin{frame}{General Exponential Family}
+        \begin{itemize}
+         \item The normal and bernoulli density belongs to a family of density functions called general exponential family. If $Y_{i}$ is from the family, its log density can be expressed as
+         \begin{equation}
+                \log f(y_{i};\theta_{i}, \phi) = \frac{y_{i}\theta_{i}-b(\theta_{i})}{a_{i}(\phi)} + c(y_{i}, \phi), \label{eq: LikeexpoF}
+        \end{equation}
+        where $a_{i}$ is a known function of dispersion parameter $\phi$.
+        \end{itemize}
+        \end{frame}
